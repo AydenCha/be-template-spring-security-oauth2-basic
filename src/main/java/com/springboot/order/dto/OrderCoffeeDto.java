@@ -2,7 +2,7 @@ package com.springboot.order.dto;
 
 import lombok.Getter;
 
-import javax.validation.constraints.Positive;
+import jakarta.validation.constraints.Positive;
 
 @Getter
 public class OrderCoffeeDto {

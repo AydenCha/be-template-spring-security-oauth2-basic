@@ -3,8 +3,8 @@ package com.springboot.order.dto;
 import com.springboot.member.entity.Member;
 import lombok.Getter;
 
-import javax.validation.Valid;
-import javax.validation.constraints.Positive;
+import jakarta.validation.Valid;
+import jakarta.validation.constraints.Positive;
 import java.util.List;
 
 @Getter
