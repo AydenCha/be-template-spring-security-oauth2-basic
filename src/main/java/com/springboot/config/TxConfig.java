@@ -48,7 +48,7 @@ public class TxConfig {
     @Bean
     public Advisor txAdvisor() {
         AspectJExpressionPointcut pointcut = new AspectJExpressionPointcut();
-        pointcut.setExpression("execution(* com.codestates.coffee.service." +
+        pointcut.setExpression("execution(* com.springboot.coffee.service." +
                 "CoffeeService.*(..))");
 
         return new DefaultPointcutAdvisor(pointcut, txAdvice());
